@@ -3,3 +3,4 @@ go to github and go to root of that repo and go in code section and copy https u
 now come to command line and change directory where you want to save this clone repo and then give command
 git clone copy_https_url give_name_of_repo(if you will not give name then it will save  it with same name as in remote repo)
 so now you have clone of your github repo locally
+

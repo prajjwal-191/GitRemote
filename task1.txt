@@ -1,0 +1,25 @@
+if we have one local repo and its remote repo suppose so we want to update the remote repo and then we want the remote change to be reflected in our local repo
+
+clone the remote repo at any local directory 
+git clone copy_https_url of remote repo give_name_of_repo
+now in cloned file do desired changes and stage and commit it 
+also push this code 
+git push origin main
+
+so this clone is pushed and hence our remote repo is updated 
+
+now come back again to our original local repo direcory
+
+now we want this update to be reflected in original local repo 
+but if we do git log we can see our local repo is having head/branch_name/ remote_tracking_branch at previous commit only
+this happened because remote_tracking_branch do not update automaticallly
+so to update remote_tracking_branch do
+git fetch
+
+now if you do git log --all then we can see remote_tracking_branch points to a commit ahead to local branch 
+so in order to sync it the local branch should point to commit poointed by remote_tracking_branch 
+and do this use command
+git pull origin main
+
+now all the updates are synced
+
