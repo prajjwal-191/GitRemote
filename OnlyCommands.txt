@@ -31,3 +31,4 @@ if you try to push it to git it will give warnings that you are amending hence i
 git push origin main -f (f stands for pushing forcely)
 
 and this is how you can create one remote repo
+
