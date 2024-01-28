@@ -2,3 +2,5 @@ git init -b main
 now write some text/code and if you want add some more files 
 now stage it by doing git add .
 commit by saying git commit -m "version 1"
+do one more update and stage it and commit it as "version 2"
+also include .gitignore file and put creds.txt inside it
