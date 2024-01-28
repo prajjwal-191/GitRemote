@@ -2,5 +2,24 @@ git init -b main
 now write some text/code and if you want add some more files 
 now stage it by doing git add .
 commit by saying git commit -m "version 1"
+
 do one more update and stage it and commit it as "version 2"
+
 also include .gitignore file and put creds.txt inside it
+now go to github create one remote repo and copy its https url
+
+in command line and in your local repo directory configure your username 
+git config --global credential.username "prajjwal191"
+
+now link your local repo with remote repo (give some nickname to remote repo such as origin)
+git add origin https url you copied 
+
+you can confirm that it is linked or not
+git remote  / git remote -v
+
+now push commit to github
+git push origin main
+and give password to authenticate
+
+now your local repo is also present at remote location that is github
+
