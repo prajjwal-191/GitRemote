@@ -1,0 +1,4 @@
+git init -b main
+now write some text/code and if you want add some more files 
+now stage it by doing git add .
+commit by saying git commit -m "version 1"
