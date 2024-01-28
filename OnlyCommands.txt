@@ -23,3 +23,11 @@ and give password to authenticate
 
 now your local repo is also present at remote location that is github
 
+now if you update local repo and changed something and stage && commit then it will not be in remote repo so again push
+git push origin main
+if you want to push it as previous commit by using --amend
+git commit -m "Remote version 1" --amend
+if you try to push it to git it will give warnings that you are amending hence it will overwrite on previous commit so do
+git push origin main -f (f stands for pushing forcely)
+
+and this is how you can create one remote repo
